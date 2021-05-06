@@ -56,6 +56,7 @@ body {
 }
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 p {
   font-size: 14px;
