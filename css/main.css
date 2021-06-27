@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
 /*
 * Crystal - Bootstrap 4 Template
 * Build Date: August 2017
@@ -125,7 +125,7 @@ a:not([href]):not([tabindex]):hover {
 .section-header .section-subtitle {
   margin-top: 15px;
   color: #333;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
 }
 .section-header .lines {
@@ -537,8 +537,8 @@ button:focus {
 }
 #carousel-area .carousel-item .carousel-caption h1 {
   font-weight: 100;
-  font-size: 50px;
-  line-height: 60px;
+  font-size: 72px;
+  line-height: 80px;
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
   -webkit-animation-duration: 1.2s;
@@ -546,7 +546,7 @@ button:focus {
 }
 #carousel-area .carousel-item .carousel-caption p {
   color: #ffffff;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
@@ -713,7 +713,7 @@ button:focus {
 }
 #services {
   position: relative;
-  background: #f2f2f2;
+  background: #ffffff;
 }
 /* ==========================================================================
   8. Features Section Style
@@ -1534,4 +1534,81 @@ footer {
 
 .my-float {
   margin-top: 16px;
+}
+
+/* TESTE */
+
+.testimonials {
+  background-color: #ffffff;
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 90px;
+}
+.testimonials:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 30%;
+  background-color: #ddd;
+}
+
+#customers-testimonials .item-details {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 20px 10px;
+  text-align: left;
+}
+#customers-testimonials .item-details h5 {
+  margin: 0 0 15px;
+  font-size: 18px;
+  line-height: 18px;
+}
+#customers-testimonials .item-details h5 span {
+  color: rgb(48, 45, 45);
+  float: right;
+  padding-right: 20px;
+}
+#customers-testimonials .item-details p {
+  font-size: 14px;
+}
+#customers-testimonials .item {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.owl-carousel .owl-nav [class*="owl-"] {
+  transition: all 0.3s ease;
+}
+
+.owl-carousel .owl-nav [class*="owl-"].disabled:hover {
+  background-color: #d6d6d6;
+}
+
+.owl-carousel {
+  position: relative;
+}
+
+.owl-carousel .owl-next,
+.owl-carousel .owl-prev {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 30%;
+  font-size: 20px;
+  color: #fff;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.owl-carousel .owl-prev {
+  left: -70px;
+}
+
+.owl-carousel .owl-next {
+  right: -70px;
 }
