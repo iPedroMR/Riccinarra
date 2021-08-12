@@ -873,6 +873,12 @@ button:focus {
   display: block;
   overflow: hidden;
   position: relative;
+  max-height: 260px;
+}
+.shot-item .overlay img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .shot-item .overlay:before,
 .shot-item .overlay:after {
@@ -1015,7 +1021,7 @@ button:focus {
 13. Testimonial Section Style
  ========================================================================== */
 #testimonial {
-  background: #f2f2f2;
+  background: #ffffff;
 }
 .testimonial-item {
   text-align: center;
