@@ -1589,6 +1589,10 @@ footer {
   margin-bottom: 80px;
 }
 
+#portfolios .item {
+  padding: 16px;
+}
+
 .owl-carousel .owl-nav [class*="owl-"] {
   transition: all 0.3s ease;
 }
