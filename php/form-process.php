@@ -32,8 +32,8 @@ if (empty($_POST["message"])) {
 }
 
 
-$EmailTo = "rt43@te.com";
-$Subject = "New Message Received";
+$EmailTo = "contato@riccinarra.com.br";
+$Subject = "Formulário Site";
 
 // prepare email body text
 $Body = "";

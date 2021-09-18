@@ -160,14 +160,13 @@
 jQuery(document).ready(function ($) {
   "use strict";
   $("#customers-testimonials").owlCarousel({
-    loop: true,
     center: true,
     items: 3,
     margin: 30,
+    autoHeight: true,
     autoplay: true,
     dots: true,
     nav: true,
-    autoplayTimeout: 8500,
     smartSpeed: 450,
     navText: [
       '<i class="fa fa-angle-left"></i>',
@@ -187,14 +186,14 @@ jQuery(document).ready(function ($) {
   });
 
   $("#customers-blog").owlCarousel({
-    loop: true,
-    center: true,
     items: 1,
-    margin: 30,
-    autoplay: true,
-    dots: true,
-    nav: true,
-    autoplayTimeout: 8500,
+    itemsDesktop: false,
+    itemsDesktopSmall: false,
+    itemsTablet: false,
+    itemsTabletSmall: false,
+    itemsMobile: false,
+    autoHeight: true,
+    autoPlay: false,
     smartSpeed: 450,
     navText: [
       '<i class="fa fa-angle-left"></i>',
@@ -218,10 +217,10 @@ jQuery(document).ready(function ($) {
     center: true,
     items: 3,
     margin: 30,
-    autoplay: true,
+    autoplay: false,
+    autoHeight: true,
     dots: true,
     nav: true,
-    autoplayTimeout: 8500,
     smartSpeed: 450,
     navText: [
       '<i class="fa fa-angle-left"></i>',
