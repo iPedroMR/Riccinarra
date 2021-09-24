@@ -192,7 +192,6 @@ jQuery(document).ready(function ($) {
     itemsTablet: false,
     itemsTabletSmall: false,
     itemsMobile: false,
-    autoHeight: true,
     autoPlay: false,
     smartSpeed: 450,
     navText: [
@@ -238,4 +237,7 @@ jQuery(document).ready(function ($) {
       },
     },
   });
+
+ 
+  
 });
